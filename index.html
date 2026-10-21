@@ -1,0 +1,364 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- ===== SEO / AI-search basics: title, description, social preview ===== -->
+<title>Saef Alhindawi | AI Operations & Knowledge Base Specialist</title>
+<meta name="description" content="Saef Alhindawi – AI Operations & Knowledge Base Specialist in Amman, Jordan. Manages AI-ready knowledge bases, builds NotebookLM AI assistants and GEO-friendly Samsung.com support pages (AEM). 4 years with Samsung Levant.">
+<meta name="author" content="Saef Alhindawi">
+<meta property="og:type" content="profile">
+<meta property="og:title" content="Saef Alhindawi | AI Operations & Knowledge Base Specialist">
+<meta property="og:description" content="AI-ready knowledge bases, NotebookLM AI assistants, and GEO-friendly support content for Samsung Levant.">
+<meta property="og:url" content="https://saefalhindawi.github.io/">
+<meta property="og:image" content="https://saefalhindawi.github.io/photo-square.jpg">
+<link rel="canonical" href="https://saefalhindawi.github.io/">
+<meta name="theme-color" content="#133b52">
+
+<!-- ===== Structured data: tells Google & AI engines who this page is about ===== -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Saef Alhindawi",
+  "jobTitle": "AI Operations & Knowledge Base Specialist",
+  "worksFor": { "@type": "Organization", "name": "Crystel.co (client: Samsung Levant)" },
+  "address": { "@type": "PostalAddress", "addressLocality": "Amman", "addressCountry": "JO" },
+  "email": "mailto:saef.alhindawi@outlook.com",
+  "alumniOf": { "@type": "CollegeOrUniversity", "name": "Tafila Technical University" },
+  "url": "https://saefalhindawi.github.io/",
+  "image": "https://saefalhindawi.github.io/photo-square.jpg",
+  "sameAs": ["https://www.linkedin.com/in/saef-al-hindawi/", "https://github.com/saefalhindawi"],
+  "knowsAbout": ["Generative AI", "Retrieval-Augmented Generation (RAG)", "Prompt Engineering", "Knowledge Base Management",
+                 "Generative Engine Optimization (GEO)", "Adobe Experience Manager (AEM)", "Sprinklr", "Google NotebookLM",
+                 "COPC", "Six Sigma", "Technical Writing", "Localization"]
+}
+</script>
+
+<link href="https://fonts.googleapis.com/css?family=Comfortaa:700|Source+Sans+Pro:400,600,700&display=swap" rel="stylesheet">
+<style>
+  /* ===== Colours (same as the CV) ===== */
+  :root {
+    --navy: #133b52; --navy-2: #1d5675; --band: #edf0f3; --text: #1b1f23;
+    --muted: #55606b; --line: #d8dee4; --white: #fff; --accent: #2f8fbf;
+  }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body { margin: 0; font-family: "Source Sans Pro", Calibri, Arial, sans-serif; font-size: 17px; line-height: 1.6; color: var(--text); background: var(--white); }
+  a { color: var(--navy-2); }
+  .wrap { max-width: 1040px; margin: 0 auto; padding: 0 20px; }
+
+  /* ===== Top navigation ===== */
+  nav { position: sticky; top: 0; z-index: 10; background: var(--navy); }
+  nav .wrap { display: flex; align-items: center; justify-content: space-between; height: 56px; }
+  nav .brand { font-family: Comfortaa, sans-serif; color: #fff; text-decoration: none; font-size: 18px; }
+  nav ul { list-style: none; display: flex; gap: 22px; margin: 0; padding: 0; }
+  nav ul a { color: #cfe0ea; text-decoration: none; font-size: 15px; }
+  nav ul a:hover { color: #fff; }
+  @media (max-width: 720px) { nav ul { display: none; } }
+
+  /* ===== Hero ===== */
+  .hero { background: var(--navy); color: #fff; padding: 56px 0 64px; }
+  .hero .wrap { display: grid; grid-template-columns: 170px 1fr; gap: 36px; align-items: center; }
+  .photo { width: 170px; height: 170px; border-radius: 50%; background: var(--navy-2); border: 4px solid rgba(255,255,255,.25);
+           display: grid; place-items: center; font-family: Comfortaa, sans-serif; font-size: 52px; overflow: hidden; }
+  .photo img { width: 100%; height: 100%; object-fit: cover; }
+  h1 { font-family: Comfortaa, sans-serif; font-size: 44px; margin: 0 0 6px; line-height: 1.15; }
+  .hero .role { font-size: 21px; color: #d6e6ef; margin: 0 0 14px; }
+  .hero .pitch { max-width: 640px; color: #e9f1f5; margin: 0 0 22px; }
+  .btns { display: flex; flex-wrap: wrap; gap: 12px; }
+  .btn { display: inline-block; padding: 10px 20px; border-radius: 6px; text-decoration: none; font-weight: 600; font-size: 16px; }
+  .btn.primary { background: #fff; color: var(--navy); }
+  .btn.ghost { border: 1.5px solid rgba(255,255,255,.6); color: #fff; }
+  @media (max-width: 720px) {
+    .hero .wrap { grid-template-columns: 1fr; text-align: center; }
+    .photo { margin: 0 auto; width: 130px; height: 130px; font-size: 40px; }
+    h1 { font-size: 34px; } .btns { justify-content: center; }
+  }
+
+  /* ===== Key numbers strip ===== */
+  .stats { background: var(--band); }
+  .stats .wrap { display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; padding: 22px 20px; text-align: center; }
+  .stat b { display: block; font-size: 30px; color: var(--navy); line-height: 1.1; }
+  .stat span { font-size: 14px; color: var(--muted); }
+  @media (max-width: 720px) { .stats .wrap { grid-template-columns: repeat(2, 1fr); row-gap: 18px; } }
+
+  /* ===== Sections ===== */
+  section { padding: 56px 0; }
+  section.alt { background: #f7f9fa; }
+  h2 { font-size: 30px; color: var(--navy); margin: 0 0 6px; }
+  .lead { color: var(--muted); margin: 0 0 28px; max-width: 720px; }
+  h3 { font-size: 21px; color: var(--navy); margin: 0 0 6px; }
+
+  /* ===== Journey timeline (knowledge base evolution) ===== */
+  .timeline { list-style: none; margin: 0; padding: 0; position: relative; }
+  .timeline::before { content: ""; position: absolute; left: 15px; top: 6px; bottom: 6px; width: 2px; background: var(--line); }
+  .timeline li { position: relative; padding: 0 0 22px 50px; }
+  .timeline li::before { content: attr(data-step); position: absolute; left: 0; top: 0; width: 32px; height: 32px; border-radius: 50%;
+                         background: var(--navy); color: #fff; font-weight: 700; font-size: 15px; display: grid; place-items: center; }
+  .timeline li h4 { margin: 2px 0 2px; font-size: 18px; }
+  .timeline li p { margin: 0; color: #333c44; }
+  .tag { display: inline-block; font-size: 13px; background: var(--band); color: var(--navy); border-radius: 20px; padding: 1px 10px; margin: 6px 6px 0 0; }
+
+  /* ===== Case study cards ===== */
+  .cases { display: grid; gap: 24px; }
+  .case { border: 1px solid var(--line); border-radius: 10px; padding: 26px; background: #fff; }
+  .case .kicker { font-size: 13px; font-weight: 700; letter-spacing: 1px; text-transform: uppercase; color: var(--accent); margin-bottom: 4px; }
+  .case dl { display: grid; grid-template-columns: 130px 1fr; gap: 8px 18px; margin: 16px 0 0; }
+  .case dt { font-weight: 700; color: var(--navy); }
+  .case dd { margin: 0; }
+  .case ul { margin: 4px 0 0; padding-left: 20px; }
+  .case .result { margin-top: 16px; background: var(--band); border-left: 4px solid var(--navy); padding: 10px 14px; border-radius: 4px; }
+  .case .link { margin-top: 14px; font-weight: 600; }
+  @media (max-width: 720px) { .case dl { grid-template-columns: 1fr; gap: 2px; } .case dt { margin-top: 8px; } }
+
+  /* ===== Skills ===== */
+  .skills { display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px; }
+  .skill-box { background: #fff; border: 1px solid var(--line); border-radius: 10px; padding: 20px; }
+  .skill-box h3 { font-size: 18px; margin-bottom: 10px; }
+  @media (max-width: 720px) { .skills { grid-template-columns: 1fr; } }
+
+  /* ===== Experience ===== */
+  .job { display: grid; grid-template-columns: 190px 1fr; gap: 20px; padding: 18px 0; border-bottom: 1px solid var(--line); }
+  .job:last-child { border-bottom: 0; }
+  .job .when { color: var(--navy); font-style: italic; }
+  .job h3 { font-size: 19px; margin: 0; }
+  .job .org { color: var(--muted); margin: 0 0 6px; }
+  .job ul { margin: 0; padding-left: 20px; }
+  @media (max-width: 720px) { .job { grid-template-columns: 1fr; gap: 2px; } }
+
+  /* ===== Contact + footer ===== */
+  .contact { background: var(--navy); color: #fff; text-align: center; }
+  .contact h2 { color: #fff; }
+  .contact .lead { color: #d6e6ef; margin-left: auto; margin-right: auto; }
+  .contact .btns { justify-content: center; }
+  footer { background: #0d2c3e; color: #9fb6c4; font-size: 14px; text-align: center; padding: 16px; }
+</style>
+</head>
+<body>
+
+<!-- ===== NAVIGATION ===== -->
+<nav>
+  <div class="wrap">
+    <a class="brand" href="#top">Saef Alhindawi</a>
+    <ul>
+      <li><a href="#journey">Journey</a></li>
+      <li><a href="#work">Case studies</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+<main id="top">
+
+<!-- ===== HERO ===== -->
+<header class="hero">
+  <div class="wrap">
+    <!-- PHOTO: square crop of Photo.jpg (photo-square.jpg) -->
+    <div class="photo"><img src="photo-square.jpg" alt="Saef Alhindawi, AI Operations & Knowledge Base Specialist" width="170" height="170"></div>
+    <div>
+      <h1>Saef Alhindawi</h1>
+      <p class="role">AI Operations &amp; Knowledge Base Specialist · Amman, Jordan</p>
+      <p class="pitch">I build the knowledge that AI assistants, support agents and AI search engines rely on: from AI-ready knowledge bases and NotebookLM AI assistants to GEO-friendly Samsung.com support pages.</p>
+      <div class="btns">
+        <a class="btn primary" href="Saef_Alhindawi_Resume.pdf" download>Download CV</a>
+        <a class="btn ghost" href="https://www.linkedin.com/in/saef-al-hindawi/" target="_blank" rel="noopener">LinkedIn</a>
+        <a class="btn ghost" href="mailto:saef.alhindawi@outlook.com">Email me</a>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- ===== KEY NUMBERS ===== -->
+<div class="stats">
+  <div class="wrap">
+    <div class="stat"><b>4 yrs</b><span>with Samsung Levant</span></div>
+    <div class="stat"><b>+70%</b><span>content accuracy (COPC)</span></div>
+    <div class="stat"><b>2</b><span>AI assistants built in NotebookLM</span></div>
+    <div class="stat"><b>4×</b><span>Digital Services Team Award</span></div>
+  </div>
+</div>
+
+<!-- ===== JOURNEY: how the knowledge base evolved ===== -->
+<section id="journey">
+  <div class="wrap">
+    <h2>From articles to AI: my knowledge base journey</h2>
+    <p class="lead">Over four years I helped move Samsung Levant's support knowledge from a private intranet site to an AI-ready knowledge base that AI search can read and use to give agents answers.</p>
+    <ol class="timeline">
+      <li data-step="1">
+        <h4>Internal knowledge base on WordPress</h4>
+        <p>Started with a basic knowledge base on a private company WordPress site, so agents had one place to find product and process information.</p>
+        <span class="tag">WordPress</span><span class="tag">Knowledge management</span>
+      </li>
+      <li data-step="2">
+        <h4>Sprinklr knowledge base</h4>
+        <p>Moved to Sprinklr and wrote searchable articles that agents could open while helping customers.</p>
+        <span class="tag">Sprinklr</span><span class="tag">Technical writing</span>
+      </li>
+      <li data-step="3">
+        <h4>AskSamsung platform</h4>
+        <p>Built the knowledge base on the new AskSamsung platform and kept it up to date with every new product and policy change.</p>
+        <span class="tag">Content operations</span><span class="tag">Update management</span>
+      </li>
+      <li data-step="4">
+        <h4>AI search on the knowledge base</h4>
+        <p>When AI search was switched on over the Sprinklr articles, I restructured the content layout to be AI-friendly, so the AI engine could read the knowledge base and suggest solutions to agents.</p>
+        <span class="tag">AI search</span><span class="tag">RAG</span><span class="tag">AI-ready content</span>
+      </li>
+    </ol>
+  </div>
+</section>
+
+<!-- ===== CASE STUDIES ===== -->
+<section id="work" class="alt">
+  <div class="wrap">
+    <h2>Case studies</h2>
+    <p class="lead">Selected projects, with the problem, what I did, and the result. Internal details are described in general terms to respect client confidentiality.</p>
+
+    <div class="cases">
+
+      <!-- Case 1: GEO page -->
+      <article class="case">
+        <div class="kicker">Samsung.com · GEO · AEM</div>
+        <h3>Samsung Product Care page, built from scratch for people and AI search</h3>
+        <dl>
+          <dt>Problem</dt>
+          <dd>More customers now ask AI assistants instead of browsing support pages. Traditional article pages were hard for AI engines to read and quote correctly.</dd>
+          <dt>What I did</dt>
+          <dd>Designed and built the Samsung Levant <em>Product Care &amp; Proactive Tips</em> page in Adobe Experience Manager (AEM), user-friendly and Generative Engine Optimization (GEO) friendly:
+            <ul>
+              <li>An "In short" answer summary at the top that AI engines can quote directly</li>
+              <li>Interactive product hotspots: select a part to see its care tips</li>
+              <li>A care schedule (every use, monthly, when needed) and navigation by symptom (drainage, odor, noise, errors)</li>
+              <li>20 structured FAQs marked up with FAQPage schema, plus "Reviewed by Samsung Support" and last-reviewed date for trust</li>
+            </ul>
+          </dd>
+          <dt>Tools</dt>
+          <dd>Adobe Experience Manager, HTML, Schema.org structured data, GEO / SEO</dd>
+        </dl>
+        <div class="result"><b>Result:</b> One page that guides customers step by step and that AI search engines can read, trust, and cite.</div>
+        <p class="link"><a href="https://www.samsung.com/levant/support/self_care_tips/" target="_blank" rel="noopener">View the live page on samsung.com →</a></p>
+      </article>
+
+      <!-- Case 2: COPC accuracy -->
+      <article class="case">
+        <div class="kicker">Content quality · COPC</div>
+        <h3>+70% content accuracy with the COPC approach</h3>
+        <dl>
+          <dt>Problem</dt>
+          <dd>Knowledge base content had accuracy gaps, so agents could give customers outdated or inconsistent answers.</dd>
+          <dt>What I did</dt>
+          <dd>Applied the COPC (Customer Operations Performance Center) approach to content: redesigned the content intake and update process with the Quality Assurance team, with clear review steps and accuracy checks.</dd>
+          <dt>Tools</dt>
+          <dd>COPC standard, QA review process, Six Sigma process mapping</dd>
+        </dl>
+        <div class="result"><b>Result:</b> Content accuracy increased by <b>70%</b>.</div>
+      </article>
+
+      <!-- Case 3: 2 NotebookLM AI assistants for a low-budget client -->
+      <article class="case">
+        <div class="kicker">Generative AI · Prompt engineering · Low budget</div>
+        <h3>2 AI assistants for call agents, built with free Google NotebookLM</h3>
+        <dl>
+          <dt>Problem</dt>
+          <dd>A low-budget client had no enterprise AI or knowledge platform, but its agents still needed fast, accurate answers during live customer calls.</dd>
+          <dt>What I did</dt>
+          <dd>Turned the free Google NotebookLM into 2 generative AI assistants:
+            <ul>
+              <li>Built a clean, well-structured knowledge base to use as the assistants' only source</li>
+              <li>Wrote the prompts that make each one act as a support assistant: its role, tone, what to answer, and what not to answer</li>
+              <li>Tested the answers, then rolled both assistants out to agents for use on live calls</li>
+            </ul>
+          </dd>
+          <dt>Tools</dt>
+          <dd>Google NotebookLM, knowledge base design, prompt engineering, RAG</dd>
+        </dl>
+        <div class="result"><b>Result:</b> 2 AI assistants in daily use on calls, giving agents answers from the client's own approved content, at no software cost.</div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ===== SKILLS ===== -->
+<section id="skills">
+  <div class="wrap">
+    <h2>Skills</h2>
+    <p class="lead">What I work with day to day.</p>
+    <div class="skills">
+      <div class="skill-box"><h3>AI &amp; Knowledge Management</h3>Generative AI, LLMs, Prompt Engineering, Retrieval-Augmented Generation (RAG), Knowledge Base Management, AI Agent Training, Google NotebookLM, AI Governance</div>
+      <div class="skill-box"><h3>Content &amp; Web</h3>Adobe Experience Manager (AEM), Generative Engine Optimization (GEO), SEO, Schema.org, HTML, Sprinklr, Content Strategy, Technical Writing, Localization</div>
+      <div class="skill-box"><h3>Quality &amp; Process</h3>COPC, Six Sigma, Process Mapping, User Journey Mapping, Root Cause Analysis, SOPs, Quality Assurance</div>
+      <div class="skill-box"><h3>Tools &amp; Languages</h3>Jira, Confluence, Microsoft Office, SolidWorks, AutoCAD, PTC Creo · Arabic (native), English (professional)</div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== EXPERIENCE ===== -->
+<section id="experience" class="alt">
+  <div class="wrap">
+    <h2>Experience</h2>
+    <p class="lead">Full details are in my <a href="Saef_Alhindawi_Resume.pdf" download>CV</a>.</p>
+    <div class="job">
+      <div class="when">Apr 2024 – Present</div>
+      <div>
+        <h3>Content Admin &amp; AI Operations Specialist</h3>
+        <p class="org">Crystel.co (client: Samsung Levant) · Amman</p>
+        <ul>
+          <li>Content manager for the Sprinklr knowledge base used by AI search; 2 NotebookLM AI assistants for call agents</li>
+          <li>GEO-friendly Samsung.com support pages in AEM; content localization across Levant markets</li>
+          <li>+70% content accuracy with the COPC approach and QA</li>
+        </ul>
+      </div>
+    </div>
+    <div class="job">
+      <div class="when">Nov 2022 – Apr 2024</div>
+      <div>
+        <h3>Customer Experience Specialist</h3>
+        <p class="org">Crystel.co (client: Samsung Levant) · Amman</p>
+        <ul>
+          <li>Tier-2 technical support for smartphones, TVs and home appliances</li>
+          <li>VIP Service Advisor for the FIFA World Cup 2022</li>
+          <li>Digital Services Team Award: Q2, Q3, Q4 2023 and Q1 2024 (4 quarters in a row)</li>
+        </ul>
+      </div>
+    </div>
+    <div class="job">
+      <div class="when">Jul 2022 – Nov 2022</div>
+      <div>
+        <h3>Process Engineer Intern</h3>
+        <p class="org">Fine Hygienic Holding · Amman</p>
+        <ul><li>SOPs, technical manuals and A3 equipment validation (IWS)</li></ul>
+      </div>
+    </div>
+    <div class="job">
+      <div class="when">2018 – 2022</div>
+      <div>
+        <h3>B.Sc. Mechanical Engineering (Production and Machinery)</h3>
+        <p class="org">Tafila Technical University · GPA 3.3 / 4.0</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== CONTACT ===== -->
+<section id="contact" class="contact">
+  <div class="wrap">
+    <h2>Let's work together</h2>
+    <p class="lead">Open to AI Operations, Knowledge Management, Content Operations and Prompt Engineering roles: Amman, hybrid or remote.</p>
+    <div class="btns">
+      <a class="btn primary" href="mailto:saef.alhindawi@outlook.com">saef.alhindawi@outlook.com</a>
+      <a class="btn ghost" href="https://www.linkedin.com/in/saef-al-hindawi/" target="_blank" rel="noopener">LinkedIn</a>
+      <a class="btn ghost" href="Saef_Alhindawi_Resume.pdf" download>Download CV</a>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer>© 2026 Saef Alhindawi · Amman, Jordan</footer>
+</body>
+</html>

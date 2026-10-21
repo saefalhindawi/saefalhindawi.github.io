@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://saefalhindawi.github.io/sitemap.xml
